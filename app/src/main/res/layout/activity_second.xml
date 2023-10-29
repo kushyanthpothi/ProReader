@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+    <!-- Showing the QR Code-->
+
+    <!--This is Edit Text View and we can write any name,links,etc-->
+
+    <!--Button for creating a QR code-->
+
+    <EditText
+        android:id="@+id/filenameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVQrcode"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:hint="Enter file name for saving"
+        android:inputType="text"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/idIVQrcode"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="59dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/qr_code"
+        app:srcCompat="@drawable/ic_baseline_qr_code_24" />
+
+    <EditText
+        android:id="@+id/idEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVQrcode"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:hint="Enter any link or text to convert"
+        android:inputType="text"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/idBtnGenerateQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdt"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/generate_qr_code" />
+
+    <Button
+        android:id="@+id/savethis"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@+id/idBtnGenerateQR"
+        android:layout_alignStart="@+id/idBtnGenerateQR"
+        android:layout_alignBottom="@+id/idBtnGenerateQR"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="-59dp"
+        android:text="SAVE THIS QR CODE" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_above="@+id/idBtnGenerateQR"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="413dp"
+        android:text="QR code generator"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+</RelativeLayout>

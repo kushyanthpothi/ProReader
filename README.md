@@ -2,6 +2,9 @@ Pro Reader - Your All-in-One Text Tool
 
 Overview: Pro Reader is a powerful Android application designed to enhance your text-related tasks. With a variety of features, it simplifies everyday tasks such as scanning QR codes, generating QR codes, converting speech to text, text to speech, and extracting text from images. Whether you need to quickly scan a QR code, transcribe spoken words, or have text read aloud, Pro Reader has you covered.
 
+![download](https://github.com/kushyanthpothi/ProReader/assets/96671421/f672b9ea-58a2-402c-8b14-e1f9c37da5f4)
+![download (1)](https://github.com/kushyanthpothi/ProReader/assets/96671421/f1b91397-3fa1-4d5f-a733-56ef10442b6a)
+
 Features
 1. QR Code Scanner
 Quickly and effortlessly scan QR codes using your device's camera. Pro Reader's built-in scanner makes it easy to access information encoded in QR codes, such as website links, contact details, and more.
